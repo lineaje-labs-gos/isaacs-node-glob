@@ -2,10 +2,10 @@
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
   "name": "glob",
   "description": "a little globber",
-  "version": "7.1.4",
+  "version": "7.1.4-lineaje-01",
   "repository": {
     "type": "git",
-    "url": "git://github.com/isaacs/node-glob.git"
+    "url": "https://github.com/lineaje-labs-gos/isaacs-node-glob"
   },
   "main": "glob.js",
   "files": [
@@ -39,5 +39,11 @@
     "prof": "bash prof.sh && cat profile.txt",
     "benchclean": "node benchclean.js"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ]
 }
