@@ -68,7 +68,7 @@
   "dependencies": {
     "foreground-child": "^3.3.1",
     "jackspeak": "^4.1.1",
-    "minimatch": "^10.1.1",
+    "minimatch": ">=10.2.5",
     "minipass": "^7.1.2",
     "package-json-from-dist": "^1.0.0",
     "path-scurry": "^2.0.0"
@@ -99,5 +99,11 @@
   "engines": {
     "node": "20 || >=22"
   },
-  "module": "./dist/esm/index.js"
+  "module": "./dist/esm/index.js",
+  "overrides": {
+    "minimatch": ">=10.2.5"
+  },
+  "resolutions": {
+    "minimatch": ">=10.2.5"
+  }
 }
