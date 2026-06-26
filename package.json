@@ -2,7 +2,7 @@
   "author": "Isaac Z. Schlueter <i@izs.me> (https://blog.izs.me/)",
   "name": "glob",
   "description": "the most correct and second fastest glob implementation in JavaScript",
-  "version": "13.0.6",
+  "version": "13.0.6-lineaje-01",
   "type": "module",
   "tshy": {
     "exports": {
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:isaacs/node-glob.git"
+    "url": "https://github.com/lineaje-labs-gos/isaacs-node-glob"
   },
   "files": [
     "dist"
@@ -89,6 +89,12 @@
     "typedoc": "^0.28.17"
   },
   "license": "BlueOak-1.0.0",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "funding": {
     "url": "https://github.com/sponsors/isaacs"
   },
