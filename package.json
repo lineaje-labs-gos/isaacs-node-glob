@@ -2,7 +2,7 @@
   "author": "Isaac Z. Schlueter <i@izs.me> (https://blog.izs.me/)",
   "name": "glob",
   "description": "the most correct and second fastest glob implementation in JavaScript",
-  "version": "13.0.6",
+  "version": "13.0.6-lineaje-01",
   "type": "module",
   "tshy": {
     "exports": {
@@ -73,7 +73,7 @@
     "benchclean": "node benchclean.cjs"
   },
   "dependencies": {
-    "minimatch": "^10.2.2",
+    "minimatch": ">=10.2.5",
     "minipass": "^7.1.3",
     "path-scurry": "^2.0.2"
   },
@@ -94,5 +94,11 @@
   },
   "engines": {
     "node": "18 || 20 || >=22"
+  },
+  "overrides": {
+    "minimatch": ">=10.2.5"
+  },
+  "resolutions": {
+    "minimatch": ">=10.2.5"
   }
 }
